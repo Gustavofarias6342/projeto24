@@ -1,6 +1,8 @@
 body {
-    background-color: black
+    
 }
+
+
 
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
 * {
@@ -221,7 +223,7 @@ a {
 }
 
 .logo {
-    margin-left: -110px;
+    margin-left: -80px;
     margin-top: 65px;
     max-height: 100px;
 }
@@ -245,6 +247,7 @@ a {
     overflow: hidden;
     display: flex;
     align-items: center;
+    background-color: #000;
 
 }
 
@@ -365,6 +368,7 @@ a {
   overflow: hidden;
   display: flex;
   align-items: center;
+  background-color: #000;
 
 }
 
@@ -470,10 +474,19 @@ a {
 .secaoproduto {
   background-color: white;
   height: 500px;
-  margin-top: 50px;
 }
 
-/* CSS */
+.titulosnk {
+  margin: 30px 0;
+  padding-top: 30px;
+
+}
+
+.centro {
+  text-align: center;
+}
+
+
 .cards{
   display: flex;
   width: 100%;
@@ -482,7 +495,7 @@ a {
   flex-wrap: wrap;
 }
 
-.card {
+  .card {
   width: 300px;
   height: 350px;
   background-color: #f7f7f7;
@@ -533,7 +546,7 @@ a {
 .card-front h2, .card-back h2 {
   font-size: 18px;
   margin-bottom: 10px;
-  margin-left: 50px;
+  margin-left: 59px;
 }
 
 .card-front p, .card-back p {
@@ -556,3 +569,268 @@ a {
   background-color: red;
 }
 
+.secaoproduto2 {
+  background-color: white;
+  height: 500px;
+ 
+}
+
+.cards2{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.card2 {
+  width: 300px;
+  height: 350px;
+  background-color: #f7f7f7;
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  perspective: 1000px;
+}
+
+.card-inner2 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+
+.card-front2, .card-back2 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.card-front2 {
+  transform: rotateY(0deg);
+}
+
+.card-back2 {
+  transform: rotateY(180deg);
+}
+
+.card2:hover .card-inner2 {
+  transform: rotateY(180deg);
+}
+
+.card-front2 img, .card-back2 img {
+  width: 100%;
+  height: 210px;
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
+}
+
+.card-front2 h2, .card-back2 h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  margin-left: 50px;
+}
+
+.card-front2 p, .card-back2 p {
+  font-size: 16px;
+  margin-bottom: 10px;
+  margin-left: 65px;
+}
+
+.card-back2 button {
+  background-color: black;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 80px;
+}
+
+.card-back2 button:hover {
+  background-color: red;
+}
+
+.secaoproduto3 {
+  background-color: white;
+  height: 500px;
+}
+
+.cards3{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.card3 {
+  width: 300px;
+  height: 350px;
+  background-color: #f7f7f7;
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  perspective: 1000px;
+}
+
+.card-inner3 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+
+.card-front3, .card-back3 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.card-front3 {
+  transform: rotateY(0deg);
+}
+
+.card-back3 {
+  transform: rotateY(180deg);
+}
+
+.card3:hover .card-inner3 {
+  transform: rotateY(180deg);
+}
+
+.card-front3 img, .card-back3 img {
+  width: 100%;
+  height: 210px;
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
+}
+
+.card-front3 h2, .card-back3 h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  margin-left: 50px;
+}
+
+.card-front3 p, .card-back3 p {
+  font-size: 16px;
+  margin-bottom: 10px;
+  margin-left: 65px;
+}
+
+.card-back3 button {
+  background-color: black;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 80px;
+}
+
+.card-back3 button:hover {
+  background-color: red;
+}
+
+
+.prolado {
+  margin-left: 50px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap; /* permite que os itens sejam quebrados em linhas novas */
+  background-color: #000;
+  width: 100%;
+}
+
+.item {
+  flex: 1; /* cada item ocupa igual espaço */
+  margin: 10px; /* adiciona um espaço entre os itens */
+}
+
+.containerlogo {
+  width: 250px;
+  
+}
+
+.marcascontainer {
+  color: #ffffff;
+  margin-bottom: 5px;
+  margin-left: 160px;
+}
+
+.formasdepgm {
+  width: 135px;
+  margin: 50px;
+
+}
+
+.social-media {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 150px;
+  margin: 10px auto;
+}
+
+.social-media a {
+  text-decoration: none;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+
+.social-media a:hover {
+  transform: scale(1.2);
+}
+
+.whatsapp {
+  background-color: #25D366;
+  padding: 10px;
+  border-radius: 45%;
+}
+
+.instagram {
+  background-color: #E4405F;
+  padding: 10px;
+  border-radius: 45%;
+}
+
+.facebook {
+  background-color: #3B5998;
+  padding: 10px;
+  border-radius: 45%;
+}
+
+.fab {
+  font-size: 14px;
+  margin: 0 auto;
+}
+
+@keyframes pulse {
+  0% {
+      transform: scale(1);
+  }
+  50% {
+      transform: scale(1.2);
+  }
+  100% {
+      transform: scale(1);
+  }
+}
+
+.social-media a:hover {
+  animation: pulse 1s infinite;
+}
